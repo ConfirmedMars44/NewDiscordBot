@@ -19,6 +19,11 @@ if(DiscordJS.version < "12.0.0") {
 // Contains functions for controlling the bot.
 //---------------------------------------------------------------------
 
+"scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
 const Bot = DBM.Bot = {};
 
 Bot.$cmds = {}; // Normal commands
